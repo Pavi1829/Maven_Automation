@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" time-out="3000">
+  <test thread-count="5" name="Test(failed)" time-out="3000">
+    <classes>
+      <class name="com.test.concepts.TimeOut">
+        <methods>
+          <include name="SearchGoogle"/>
+        </methods>
+      </class> <!-- com.test.concepts.TimeOut -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
